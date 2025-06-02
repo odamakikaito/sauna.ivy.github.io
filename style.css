@@ -1,0 +1,42 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: #d2691e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('sauna.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2, h3 {
+  color: #b45200;
+}
+
+footer {
+  text-align: center;
+  background: #eee;
+  padding: 1rem;
+  font-size: 0.9rem;
+}

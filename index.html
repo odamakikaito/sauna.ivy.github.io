@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ととのいサウナ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ととのいサウナ</h1>
+    <nav>
+      <a href="index.html" onclick="playSizzle()">ホーム</a>
+      <a href="info.html" onclick="playSizzle()">料金・お問い合わせ</a>
+    </nav>
+  </header>
+
+  <div class="hero"></div>
+
+  <main>
+    <h2>心と体をととのえる、極上のひととき</h2>
+    <p>当サウナでは、フィンランド式の本格ロウリュ体験をご提供しています。<br>
+    外気浴スペースも完備。都会の喧騒から離れて、ととのいませんか？</p>
+
+    <h3>営業時間</h3>
+    <p>平日 12:00〜22:00 / 土日祝 10:00〜23:00 / 定休日：水曜日</p>
+
+    <h3>アクセス</h3>
+    <p>東京都サウナ区ととのい町1-2-3（最寄駅：ととのい駅）</p>
+    <iframe src="https://maps.google.com/?q=ととのい町1-2-3&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen>
+    </iframe>
+  </main>
+
+  <footer>
+    &copy; 2025 ととのいサウナ
+  </footer>
+
+  <audio id="sizzle-sound" src="sizzle.mp3" preload="auto"></audio>
+  <script>
+    function playSizzle() {
+      const sound = document.getElementById("sizzle-sound");
+      sound.currentTime = 0;
+      sound.play();
+    }
+  </script>
+</body>
+</html>
